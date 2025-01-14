@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    font-family: "Poppins", serif;
+    font-size: 1.2rem
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5rem;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.nav-bar ul li {
+    margin: 2rem;
+    color: black;
+}
+
+.nav-bar ul li a {
+    color: #000;
+    font-size: 20px;
+}
+
+.logo h2 {
+    font-size: 2.3rem;
+    color: #6B68F0;
+}
+
+.btn-header {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #6B68F0;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* hero section */
+.hero {
+    width: 100%;
+    height: 85vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://plus.unsplash.com/premium_photo-1661963632954-0903e45d6797?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHx8");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    margin-right: 5rem;
+}
+
+.box-form {
+    position: relative;
+    width: 900px;
+    height: 92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid transparent;
+    background-color: #d9d9d9;
+    margin-top: 6rem;
+    padding: 1rem;
+    border-radius: 12px 0 0 12px;
+}
+
+.text-hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-hero h2 {
+    font-size: 50px;
+    color: #6B68F0;
+    line-height: 68.3px;
+}
+
+.text-hero p {
+    color: #a5a5a5;
+    font-size: 25px;
+}
+
+.origin-one,
+.origin-1,
+.origin-2,
+.origin-3 {
+    border-right: 2px solid #bdbdbd;
+    padding: 1.8rem;
+
+}
+
+.origin-5 {
+    position: absolute;
+    right: 19.3%;
+    top: 47.4%;
+    width: 180px;
+    height: 92px;
+    background-color: #6B68F0;
+    border-radius: 0 5px 5px 0;
+    text-align: center;
+}
+
+.origin-5 p {
+    padding: 2rem;
+}
+
+.origin-one img {
+    width: 20px;
+    align-items: center;
+}
+
+.origin-1 img {
+    width: 20px;
+    align-items: center;
+}
