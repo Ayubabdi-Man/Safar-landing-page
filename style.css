@@ -179,3 +179,55 @@ span {
     font-weight: 400;
     color: #757373;
 }
+
+.Destinations {
+    width: 95%;
+    height: fit-content;
+    margin: 10px auto;
+    padding: 2rem;
+}
+
+.top-boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box-img img {
+    width: 385px;
+    height: 310px;
+    border-radius: 5px;
+    padding-bottom: 1rem;
+}
+
+.img-details h2 {
+    color: #6B68F0;
+    font-size: 20px;
+    line-height: 27.32px;
+}
+
+.img-details p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #757373;
+    padding-bottom: 12px;
+}
+
+.btn-one {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    color: #757373;
+}
+
+#btn-des-one {
+    border: 1px solid #6B68F0;
+
+}
+
+#btn-des-two {
+    background-color: #6B68F0;
+    color: #fff;
+}
