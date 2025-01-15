@@ -119,10 +119,12 @@ body {
     background-color: #6B68F0;
     border-radius: 0 5px 5px 0;
     text-align: center;
+    cursor: pointer;
 }
 
 .origin-5 p {
     padding: 2rem;
+    color: #fff;
 }
 
 .origin-one img {
@@ -133,4 +135,47 @@ body {
 .origin-1 img {
     width: 20px;
     align-items: center;
+}
+
+/* about-safar */
+.about-safar {
+    width: 95%;
+    height: fit-content;
+    margin: 10px auto;
+}
+
+.title {
+    color: #6B68F0;
+    font-size: 45px;
+    line-height: 61.47px;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-left: 5rem;
+}
+
+span {
+    opacity: 0.4;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.text-box {}
+
+.text-box h2 {
+    color: #6B68F0;
+    line-height: 27.32px;
+    padding-bottom: 2rem;
+    opacity: 0.9
+}
+
+.text-box p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757373;
 }
